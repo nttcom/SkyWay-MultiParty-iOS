@@ -9,7 +9,7 @@ SkyWay( http://nttcom.github.io/skyway/ )を用い、多人数参加のグルー
 Podfile
 ```
 pod 'SkyWay-iOS-SDK'
-pod 'SkyWay-MultiParty-iOS'
+pod 'SkyWay-MultiParty-iOS', :git => 'https://github.com/nttcom/SkyWay-MultiParty-iOS.git'
 ```
 
 Install

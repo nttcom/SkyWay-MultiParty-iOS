@@ -9,7 +9,7 @@ This is a library for easy implementation of group video chat with SkyWay(http:/
 Podfile
 ```
 pod 'SkyWay-iOS-SDK'
-pod 'SkyWay-MultiParty-iOS'
+pod 'SkyWay-MultiParty-iOS', :git => 'https://github.com/nttcom/SkyWay-MultiParty-iOS.git'
 ```
 
 Install
