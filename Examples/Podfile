@@ -1,0 +1,4 @@
+target 'MultiParty-iOS-Sample' do
+    pod 'SkyWay-iOS-SDK'
+    pod 'SkyWay-MultiParty-iOS'
+end

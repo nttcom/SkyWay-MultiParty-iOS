@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3DF272141BC79F9E0026142F /* MultiParty Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3DF272151BC79F9E0026142F /* Build configuration list for PBXAggregateTarget "MultiParty Framework" */;
+			buildPhases = (
+				3DF2721A1BC7A1A60026142F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "MultiParty Framework";
+			productName = "MultiParty Framework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3D198A721BCE4B41002E94AE /* MultiPartyError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D198A711BCE4B41002E94AE /* MultiPartyError.m */; };
+		3DBAA1451BF18B2200E5ECA9 /* ListingPeerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBAA1441BF18B2200E5ECA9 /* ListingPeerOperation.m */; };
+		3DD4428D1C28E89500AE5C62 /* CallbackOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD4428C1C28E89500AE5C62 /* CallbackOperation.m */; };
+		3DF2720E1BC79F530026142F /* MultiParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF271F51BC79F530026142F /* MultiParty.m */; };
+		3DF2720F1BC79F530026142F /* MultiPartyConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF271F71BC79F530026142F /* MultiPartyConnection.m */; };
+		3DF272101BC79F530026142F /* MultiPartyOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF271F91BC79F530026142F /* MultiPartyOption.m */; };
+		3DF272111BC79F530026142F /* NSObject+cancelable_block.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF271FB1BC79F530026142F /* NSObject+cancelable_block.m */; };
+		A8A1D9E11D5AF57200B151A7 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A1D9E01D5AF57200B151A7 /* SkyWay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DA16C801BC77FE100B25AB3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D198A711BCE4B41002E94AE /* MultiPartyError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPartyError.m; sourceTree = "<group>"; };
+		3D198A731BCE4B98002E94AE /* MultiPartyError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPartyError.h; sourceTree = "<group>"; };
+		3D198A741BCE4C18002E94AE /* MultiPartyError+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MultiPartyError+Internal.h"; sourceTree = "<group>"; };
+		3DA16C821BC77FE100B25AB3 /* libMultiParty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMultiParty.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBAA1431BF18B2200E5ECA9 /* ListingPeerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListingPeerOperation.h; sourceTree = "<group>"; };
+		3DBAA1441BF18B2200E5ECA9 /* ListingPeerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListingPeerOperation.m; sourceTree = "<group>"; };
+		3DD4428B1C28E89500AE5C62 /* CallbackOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallbackOperation.h; sourceTree = "<group>"; };
+		3DD4428C1C28E89500AE5C62 /* CallbackOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallbackOperation.m; sourceTree = "<group>"; };
+		3DF271F41BC79F530026142F /* MultiParty+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MultiParty+Internal.h"; sourceTree = "<group>"; };
+		3DF271F51BC79F530026142F /* MultiParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiParty.m; sourceTree = "<group>"; };
+		3DF271F61BC79F530026142F /* MultiPartyConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPartyConnection.h; sourceTree = "<group>"; };
+		3DF271F71BC79F530026142F /* MultiPartyConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPartyConnection.m; sourceTree = "<group>"; };
+		3DF271F81BC79F530026142F /* MultiPartyOption+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MultiPartyOption+Internal.h"; sourceTree = "<group>"; };
+		3DF271F91BC79F530026142F /* MultiPartyOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPartyOption.m; sourceTree = "<group>"; };
+		3DF271FA1BC79F530026142F /* NSObject+cancelable_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+cancelable_block.h"; sourceTree = "<group>"; };
+		3DF271FB1BC79F530026142F /* NSObject+cancelable_block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+cancelable_block.m"; sourceTree = "<group>"; };
+		3DF271FD1BC79F530026142F /* MultiParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiParty.h; sourceTree = "<group>"; };
+		3DF271FE1BC79F530026142F /* MultiPartyOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPartyOption.h; sourceTree = "<group>"; };
+		3DF2720C1BC79F530026142F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF2720D1BC79F530026142F /* placeholder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = placeholder.txt; sourceTree = "<group>"; };
+		A8A1D9E01D5AF57200B151A7 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkyWay.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA16C7F1BC77FE100B25AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A1D9E11D5AF57200B151A7 /* SkyWay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA16C791BC77FE100B25AB3 = {
+			isa = PBXGroup;
+			children = (
+				3DF271F31BC79F530026142F /* Classes */,
+				3DF271FC1BC79F530026142F /* Headers */,
+				3DF272021BC79F530026142F /* Libs */,
+				3DA16C831BC77FE100B25AB3 /* Products */,
+				3DF2720B1BC79F530026142F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA16C831BC77FE100B25AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA16C821BC77FE100B25AB3 /* libMultiParty.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF271F31BC79F530026142F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DD4428B1C28E89500AE5C62 /* CallbackOperation.h */,
+				3DD4428C1C28E89500AE5C62 /* CallbackOperation.m */,
+				3DBAA1431BF18B2200E5ECA9 /* ListingPeerOperation.h */,
+				3DBAA1441BF18B2200E5ECA9 /* ListingPeerOperation.m */,
+				3DF271F51BC79F530026142F /* MultiParty.m */,
+				3DF271F41BC79F530026142F /* MultiParty+Internal.h */,
+				3DF271F61BC79F530026142F /* MultiPartyConnection.h */,
+				3DF271F71BC79F530026142F /* MultiPartyConnection.m */,
+				3D198A711BCE4B41002E94AE /* MultiPartyError.m */,
+				3D198A741BCE4C18002E94AE /* MultiPartyError+Internal.h */,
+				3DF271F91BC79F530026142F /* MultiPartyOption.m */,
+				3DF271F81BC79F530026142F /* MultiPartyOption+Internal.h */,
+				3DF271FA1BC79F530026142F /* NSObject+cancelable_block.h */,
+				3DF271FB1BC79F530026142F /* NSObject+cancelable_block.m */,
+			);
+			name = Classes;
+			path = MultiParty/Classes;
+			sourceTree = "<group>";
+		};
+		3DF271FC1BC79F530026142F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3DF271FD1BC79F530026142F /* MultiParty.h */,
+				3D198A731BCE4B98002E94AE /* MultiPartyError.h */,
+				3DF271FE1BC79F530026142F /* MultiPartyOption.h */,
+			);
+			name = Headers;
+			path = MultiParty/Headers;
+			sourceTree = "<group>";
+		};
+		3DF272021BC79F530026142F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1D9E01D5AF57200B151A7 /* SkyWay.framework */,
+			);
+			name = Libs;
+			path = MultiParty/Libs;
+			sourceTree = "<group>";
+		};
+		3DF2720B1BC79F530026142F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DF2720C1BC79F530026142F /* Info.plist */,
+				3DF2720D1BC79F530026142F /* placeholder.txt */,
+			);
+			name = Resources;
+			path = MultiParty/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA16C811BC77FE100B25AB3 /* MultiParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA16C8B1BC77FE100B25AB3 /* Build configuration list for PBXNativeTarget "MultiParty" */;
+			buildPhases = (
+				3DA16C7E1BC77FE100B25AB3 /* Sources */,
+				3DA16C7F1BC77FE100B25AB3 /* Frameworks */,
+				3DA16C801BC77FE100B25AB3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiParty;
+			productName = MultiParty;
+			productReference = 3DA16C821BC77FE100B25AB3 /* libMultiParty.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA16C7A1BC77FE100B25AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SkyWay;
+				TargetAttributes = {
+					3DA16C811BC77FE100B25AB3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3DF272141BC79F9E0026142F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DA16C7D1BC77FE100B25AB3 /* Build configuration list for PBXProject "MultiParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DA16C791BC77FE100B25AB3;
+			productRefGroup = 3DA16C831BC77FE100B25AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA16C811BC77FE100B25AB3 /* MultiParty */,
+				3DF272141BC79F9E0026142F /* MultiParty Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DF2721A1BC7A1A60026142F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Environment Variables\nINFO_PLIST=\"Resources/Info.plist\"\nFRAMEWORK_NAME=${PRODUCT_NAME}\nFRAMEWORK_VERSION_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" ${SRCROOT}/${PRODUCT_MODULE_NAME}/${INFO_PLIST})\nFRAMEWORK_VERSION=A\nFRAMEWORK_BUILD_PATH=\"${SRCROOT}/build/${CONFIGURATION}-framework\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${PRODUCT_NAME}.framework\"\nFRAMEWORK_PACKAGE_NAME=\"${PRODUCT_NAME}.${FRAMEWORK_VERSION_NUMBER}-${CONFIGURATION}.zip\"\n\nSETTINGS=\"ONLY_ACTIVE_ARCH=NO ENABLE_BITCODE=YES\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\n\tSETTINGS=\"${SETTINGS} GCC_GENERATE_DEBUGGING_SYMBOLS=NO\"\n\tSETTINGS=\"${SETTINGS} GCC_PRECOMPILE_PREFIX_HEADER=NO\"\n\tSETTINGS=\"${SETTINGS} DEBUG_INFORMATION_FORMAT=dwarf\"\n\tSETTINGS=\"${SETTINGS} CLANG_ENABLE_MODULES=NO\"\n\tSETTINGS=\"${SETTINGS} CLANG_ENABLE_MODULE_DEBUGGING=NO\"\nelse\n\tSETTINGS=\"${SETTINGS} GCC_GENERATE_DEBUGGING_SYMBOLS=YES\"\nfi\n\n# Clean directories\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && rm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\nPATHLIB=\"${SRCROOT}/${TARGET_NAME}/Lib\"\necho \"LIB : ${PATHLIB}\"\n\n# Build binaries for simulator\necho \"--- Build binaries for simulator ---\"\nxcodebuild -project ${PROJECT_NAME}.xcodeproj \\\n-target \"${PROJECT_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\n${SETTINGS} \\\nclean build\n\n# Build binaries for device\necho \"--- Build binaries for device ---\"\nxcodebuild -project ${PROJECT_NAME}.xcodeproj \\\n-target \"${PROJECT_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos \\\n${SETTINGS} \\\nclean build\n\n# Create directories\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\n\n# Create symbolic link\npushd ${FRAMEWORK_DIR}/Versions\nln -s ${FRAMEWORK_VERSION} Current\npopd\npushd ${FRAMEWORK_DIR}\nln -s Versions/Current/Headers Headers\nln -s Versions/Current/Resources Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_NAME}\npopd\n\n# Create the universal library\nlipo -create \\\n${SRCROOT}/build/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}.a \\\n${SRCROOT}/build/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}.a \\\n-output \"${FRAMEWORK_DIR}/Versions/Current/${PRODUCT_NAME}\"\n\n# Copy files\nHEADER=*.h\nls ${SRCROOT}/${PROJECT_NAME}/Headers/${HEADER} > /dev/null 2>&1 && cp ${SRCROOT}/${PROJECT_NAME}/Headers/${HEADER} ${FRAMEWORK_DIR}/Headers\ncp ${SRCROOT}/${PROJECT_NAME}/${INFO_PLIST} ${FRAMEWORK_DIR}/Resources\n\n# Create zip\ncd ${FRAMEWORK_BUILD_PATH}\nzip -ry ${FRAMEWORK_PACKAGE_NAME} $(basename $FRAMEWORK_DIR)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA16C7E1BC77FE100B25AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBAA1451BF18B2200E5ECA9 /* ListingPeerOperation.m in Sources */,
+				3DF2720F1BC79F530026142F /* MultiPartyConnection.m in Sources */,
+				3DF272111BC79F530026142F /* NSObject+cancelable_block.m in Sources */,
+				3DF272101BC79F530026142F /* MultiPartyOption.m in Sources */,
+				3D198A721BCE4B41002E94AE /* MultiPartyError.m in Sources */,
+				3DD4428D1C28E89500AE5C62 /* CallbackOperation.m in Sources */,
+				3DF2720E1BC79F530026142F /* MultiParty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3DA16C891BC77FE100B25AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = Debug;
+		};
+		3DA16C8A1BC77FE100B25AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = Release;
+		};
+		3DA16C8C1BC77FE100B25AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MultiParty/Libs",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = MultiParty;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		3DA16C8D1BC77FE100B25AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MultiParty/Libs",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = MultiParty;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		3DF272161BC79F9E0026142F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = MultiParty;
+			};
+			name = Debug;
+		};
+		3DF272171BC79F9E0026142F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = MultiParty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA16C7D1BC77FE100B25AB3 /* Build configuration list for PBXProject "MultiParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA16C891BC77FE100B25AB3 /* Debug */,
+				3DA16C8A1BC77FE100B25AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA16C8B1BC77FE100B25AB3 /* Build configuration list for PBXNativeTarget "MultiParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA16C8C1BC77FE100B25AB3 /* Debug */,
+				3DA16C8D1BC77FE100B25AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF272151BC79F9E0026142F /* Build configuration list for PBXAggregateTarget "MultiParty Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF272161BC79F9E0026142F /* Debug */,
+				3DF272171BC79F9E0026142F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA16C7A1BC77FE100B25AB3 /* Project object */;
+}
