@@ -8,7 +8,7 @@
 
 # Multi Party
 
-SkyWay( http://nttcom.github.io/skyway/ )を用い、多人数参加のグループビデオチャットを簡単に開発できるiOS向けのライブラリです。
+[SkyWay](http://nttcom.github.io/skyway/)を用い、多人数参加のグループビデオチャットを簡単に開発できるiOS向けのライブラリです。
 
 ## インストール
 
