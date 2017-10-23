@@ -4,7 +4,7 @@
 
 We have released a new WebRTC platform, [ECLWebRTC](https://webrtc.ecl.ntt.com/en/?origin=skyway), to take the place of SkyWay. We will be shutting down the SkyWay servers in March 2018. Customers who are currently using SkyWay are required to migrate to ECLWebRTC by then or their services will stop working.
 
-If you are looking for the repository of ECLWebRTC, please see [SKWMeshRoom Class](https://webrtc.ecl.ntt.com/en/ios-reference/a00121.html) and [SKWSFURoom Class](https://webrtc.ecl.ntt.com/en/ios-reference/a00157.html).
+If you are looking for the repository of ECLWebRTC, please use [SKWMeshRoom Class](https://webrtc.ecl.ntt.com/en/ios-reference/a00121.html) and [SKWSFURoom Class](https://webrtc.ecl.ntt.com/en/ios-reference/a00157.html).
 
 # Multi Party
 
