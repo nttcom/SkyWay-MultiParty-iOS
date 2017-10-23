@@ -27,11 +27,11 @@ pod install
 
 ### MultiParty
 
-####Property
+#### Property
 * opened (BOOL)
     * Is YES if the connection is open.
 
-####Constructor
+#### Constructor
 ```objective-C
 MultiPartyOption* option = [[MultiPartyOption alloc] init];
 option.key = @"{API-KEY}";
