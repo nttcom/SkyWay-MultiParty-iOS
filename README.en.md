@@ -8,7 +8,7 @@ If you are looking for the repository of ECLWebRTC, please use [SKWMeshRoom Clas
 
 # Multi Party
 
-This is a library for easy implementation of group video chat with SkyWay(http://nttcom.github.io/skyway/) for iOS.
+This is a library for easy implementation of group video chat with [SkyWay](http://nttcom.github.io/skyway/) for iOS.
 
 ## Install
 
