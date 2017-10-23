@@ -27,11 +27,11 @@ pod install
 
 ### MultiParty
 
-####プロパティ
+#### プロパティ
 * opened (BOOL)
     * MultiPartyの接続状態
 
-####コンストラクタ
+#### コンストラクタ
 ```objective-C
 MultiPartyOption* option = [[MultiPartyOption alloc] init];
 option.key = @"{API-KEY}";
@@ -334,8 +334,7 @@ boolean listAllPeers(OnCallback() callback)
 		NSArray* list = [aryPeers copy];
 	}
 }];
-
-
+```
 
 ## LICENSE & Copyright
 
