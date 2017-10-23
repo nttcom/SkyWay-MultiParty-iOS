@@ -1,6 +1,12 @@
-# Multi Party
+日本語 | [English](./README.en.md)
 
-[日本語](./README.md) | [English](./README.en.md)
+# Deprecated!
+
+このレポジトリは、2018年3月に提供を終了する旧SkyWayのiOS SDK向けMultiPartyライブラリです。[新しいSkyWay](https://webrtc.ecl.ntt.com/?origin=skyway)への移行をお願いします。
+
+すでに新しいSkyWayをご利用の方は、see [SKWMeshRoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00121.html)および[SKWSFURoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00157.html)をご利用ください。
+
+# Multi Party
 
 SkyWay( http://nttcom.github.io/skyway/ )を用い、多人数参加のグループビデオチャットを簡単に開発できるiOS向けのライブラリです。
 
