@@ -4,7 +4,7 @@
 
 このレポジトリは、2018年3月に提供を終了する旧SkyWayのiOS SDK向けMultiPartyライブラリです。[新しいSkyWay](https://webrtc.ecl.ntt.com/?origin=skyway)への移行をお願いします。
 
-すでに新しいSkyWayをご利用の方は、see [SKWMeshRoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00121.html)および[SKWSFURoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00157.html)をご利用ください。
+すでに新しいSkyWayをご利用の方は、[SKWMeshRoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00121.html)および[SKWSFURoomクラス](https://webrtc.ecl.ntt.com/ios-reference/a00157.html)をご利用ください。
 
 # Multi Party
 
